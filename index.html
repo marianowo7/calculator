@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>La Calcu :D</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="calculadora">
+            <div id="nums">
+                <!-- <img src="https://i.ytimg.com/vi/1L7MuV2RpAo/mqdefault.jpg" alt="" srcset="" style="display: flex ; justify-content: center;">  -->
+                <div id="res"> 
+                    0                  
+                </div>
+                <button onclick="getNumber(this)" class="num">7</button>
+                <button onclick="getNumber(this)" class="num">8</button>
+                <button onclick="getNumber(this)" class="num">9</button>
+                <button onclick="getOp(this)" class="op"  >/</button>
+                <button onclick="getNumber(this)" class="num">4</button>
+                <button onclick="getNumber(this)" class="num">5</button>
+                <button onclick="getNumber(this)" class="num">6</button>
+                <button onclick="getOp(this)" class="op" >x</button>
+                <button onclick="getNumber(this)" class="num">1</button>
+                <button onclick="getNumber(this)" class="num">2</button>
+                <button onclick="getNumber(this)" class="num">3</button>
+                <button onclick="getOp(this)" class="op"  >-</button>
+                <button onclick="getNumber(this)" class="num">0</button>
+                <button onclick="borrar(this)" class="op"  >C</button>
+                <button onclick="getOp(this)" class="op"  >=</button>
+                <button onclick="getOp(this)" class="op"  >+</button>
+                <button onclick="getOp(this)" class="op"  >.</button>
+            </div>
+        </div>
+        <div id="numAnt" style="color:#595959 ;"></div>
+    <script src="script.js"></script>
+    </body>
+</html>

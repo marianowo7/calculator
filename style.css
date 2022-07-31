@@ -1,0 +1,60 @@
+body {
+    background-color: #595959;
+    
+}
+
+#nums {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    width: 400px;
+}
+
+.num {
+    width: 100px;
+    height: 100px 
+}
+
+.op {
+    width: 100px;
+    height: 100px; 
+    background-color: black;
+}
+
+button {
+    background-color: grey;
+    color: white;
+    border: 1px solid white;
+    transition: color .1s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+#res {
+    display: flex;
+    background-color: grey;
+    color: white;
+    border: 1px solid white;
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://pbs.twimg.com/media/FBmvyqjWQAwkCia.jpg); 
+    background-size: cover;
+    /* background-image: url(https://i.ytimg.com/vi/1L7MuV2RpAo/mqdefault.jpg);
+    /* background-image: linear-gradient(red, yellow); */
+    font-size: xx-large;
+   
+}
+
+#calculadora {
+    display: flex;
+    justify-content: center; 
+}
